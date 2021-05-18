@@ -1,0 +1,23 @@
+@use 'colors';
+
+#h1{
+    color: colors.$red
+}
+
+%input{
+    width: 5%;
+    height: 0.5%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#name{
+    @extend %input;
+    color: colors.$yellow
+}
+#password{
+    @extend %input;
+    color: colors.$green
+}
+#btn_ok{
+    color: colors.$blue
+}
